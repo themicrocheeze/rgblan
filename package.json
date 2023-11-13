@@ -1,0 +1,47 @@
+{
+  "name": "rgblan",
+  "version": "0.0.0",
+  "description": "An Overlay Package for Fireside casts",
+  "homepage": "asdfasd",
+  "author": {
+    "name": "Themicrocheeze",
+    "email": "themicrocheez@gmail.com",
+    "url": "themicrocheeze.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^2.0.0",
+    "dashboardPanels": [
+      {
+        "name": "fire-side",
+        "title": "Fire Side",
+        "file": "fire-side.html",
+        "headerColor": "#F4722B",
+        "fullbleed": "true"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "masterOverlay.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "logsOnMaster.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "private": true
+}

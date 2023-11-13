@@ -1,0 +1,158 @@
+.l3-base{
+    margin: 0px;
+    position: absolute;
+    background-color: rgba(62, 62, 62, 0.9);
+    color: white;
+    top: 850px;
+    left: 360px;
+    height: 230px;
+    font-size: 156px;
+    width: 1560px;
+}
+.CorgLogo{
+    width: 117px;
+    height: 117px;
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+    left: 256px;
+    top: 0px;
+}
+.l3-color-1{
+    color: #EC6F2B;
+}
+
+.l3-color-2{
+    color:#F5E5C1;
+}
+
+
+.matchInfoClass{
+    position: absolute;
+    font-size: 52px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:128px;
+    left: 32px;
+    text-align: center;
+    z-index: 8;
+    color: white;
+}
+
+.orgName{
+    position: absolute;
+    left:32px;
+    top: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 43px;
+    color: #FFFFFF;
+    z-index: 9;
+    text-align: center;
+    border-bottom: solid;
+    
+}
+
+.mapsListClass{
+    position: absolute;
+    top: 360px;
+    left: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F4722B;
+    text-align: left;
+    font-size: 32px;
+    z-index: 9;
+}
+
+.matchUP{
+    position: absolute;
+    top: 200px;
+    left: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    z-index: 8;
+}
+
+/*CASTER AND PRODUCER BOX RULES*/
+.casterName1{
+    position: absolute;
+    top: 1030px;
+    left: 360px;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 360px;
+    height: 50px;
+    color: #F4722B;
+    text-align: center;
+    z-index: 8;
+    background-color: rgba(62, 62, 62, 0);
+    opacity: 0;
+}
+.casterName2{
+    position: absolute;
+    top: 1030px;
+    left: 720px;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 360px;
+    height: 50px;
+    color: #F4722B;
+    text-align: center;
+    z-index: 8;
+    background-color: rgba(62, 62, 62, 0);
+    opacity: 0;
+}
+.producerName{
+    position: absolute;
+    top: 1030px;
+    left: 1080px;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 360px;
+    height: 50px;
+    color: #F4722B;
+    text-align: center;
+    z-index: 8;
+    background-color: rgba(62, 62, 62, 0);
+    opacity: 0;
+}
+
+.lbean{
+    position: absolute;
+    width: 540px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: #3E3E3E;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+
+/*CASTER PROFILE PICTURES*/
+
+.pfp1{
+    width: 360px;
+    height: 222px;
+    bottom: 0px;
+    left: 360px;
+    z-index: 7;
+    position: absolute;
+}
+.pfp2{
+    width: 360px;
+    height: 222px;
+    bottom: 0px;
+    left: 720px;
+    z-index: 7;
+    position: absolute;
+}
+.pfp3{
+    width: 360px;
+    height: 222px;
+    bottom: 0px;
+    left: 1080px;
+    z-index: 7;
+    position: absolute;
+}
+

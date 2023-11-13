@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .monospace {
+            font-family: monospace;
+        }
+
+
+        .greenButton{
+            background: green;
+            color: white;
+            width: 100px;
+            height: 100px;
+            font-size: 52px;
+        }
+        .greenButton:hover {background-color: white; color: black;}
+        .redButton{
+            background-color: red;
+            color: white;
+            width: 100px;
+            height: 100px;
+            font-size: 52px;
+        }
+        .redButton:hover {background-color: white; color: black;}
+        .blueButton{
+            background-color: blue;
+            color: white;
+            width: 100px;
+            height: 100px;
+            font-size: 52px;
+        }
+        .blueButton:hover {background-color: white; color: black;}
+
+
+
+    </style>
+</head>
+
+<body>
+    <h3>SCOREBOARD CONTROLS</h3>
+    <h2 id="team1">TEAM 1</h2>
+    <input class="greenButton" onclick="scoreTeam1()" type="button" value="+1">
+    <input class="redButton" onclick="minusScoreTeam1()" type="button" value="-1">
+    <input class="blueButton" onclick="zeroteam1()" type="button" value="0">
+    <hr />
+    <h2 id="team2">TEAM 2</h2>
+    <input class="greenButton" onclick="scoreTeam2()"  type="button" value="+1">
+    <input class="redButton" onclick="minusScoreTeam2()" type="button" value="-1">
+    <input class="blueButton" onclick="zeroteam2()" type="button" value="0">
+
+    <hr/>
+    <h2>Under scoreboard flavor text</h2>
+    <input type="text" id="underScoreflavor"/><input type="button" onclick="setflavor()" value="set flavor text"/>
+
+
+
+
+
+    <script src="scoreboardDash.js"></script>
+
+</body>
+
+</html>
