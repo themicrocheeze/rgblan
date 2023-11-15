@@ -39,6 +39,11 @@
         "file": "logsOnMaster.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "lbox.html",
+        "width": 1920,
+        "height": 1080
       }
     ]
   },

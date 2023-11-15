@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="css/lbox.css"/>
+</head>
+<body onload="startTime()">
+
+
+    <!-- Legacy code for reference-->
+	<!--<div class="l3-base" id="lowerthirdBaseVar"></div>-->
+<!--
+	<div  class="matchInfoClass" id="matchInfo"></div>
+	<div class="mapsListClass" id="mapListVar"></div>
+-->
+	<!-- CASTER AND PRODUCER INFOBOXES-->
+<!--
+	<div class="casterName1" id="casterNameVar1"></div>
+	<div class="casterName2" id="casterNameVar2"></div>
+	<div class="producerName" id="producerNameVar"></div>
+
+
+	<div class="matchUP" id="matchUPVAR">sdfsdfsdfs</div>
+	<div class="teaminfoandscorebox"></div>
+	<div class="lbean"></div>
+-->
+	<!--javaScript Intialization-->
+	<script src="js/lowerThird.js"></script>
+    <!--END LEGACY CODE-->
+
+    <!-- Start of new code-->
+    <div class="lboxhorizontal"></div>
+    <div class="lboxvertical"></div>
+    <img class="CorgLogo" src="imgs/logo.png">
+    <div class="timeMrFreeman" id="tmf"></div>      
+        
+        <script>
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('tmf').innerHTML =  h + ":" + m + ":" + s;
+          setTimeout(startTime, 1000);
+        }
+        
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
+        
+
+
+
+
+</body>
+</html>

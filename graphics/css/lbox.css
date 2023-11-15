@@ -1,0 +1,49 @@
+.lboxhorizontal{
+    position: absolute;
+    background-color: darkslategrey;
+    width: 1920px;
+    height: 200px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 50%;
+}
+.lboxvertical{
+    opacity: 50%;
+    position: absolute;
+    background-color: darkslategray;
+    width: 300px;
+    height: 880px;
+    top:0px;
+}
+
+.CorgLogo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+}
+
+.orgName{
+    position: absolute;
+    width: 300px;
+    height: 128px;
+    font-size: 64px;
+    top: 300px
+}
+
+.timeMrFreeman{
+    font-size: 56px;
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    color: white;
+    font-family: DroidSans;
+    text-align: center;
+}
+
+/** IMPORTING FONTS**/
+@font-face {
+    font-family: DroidSans;
+    src: url(../fonts/DroidSans.ttf);
+  }
