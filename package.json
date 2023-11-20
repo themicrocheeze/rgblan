@@ -22,9 +22,9 @@
     "compatibleRange": "^2.0.0",
     "dashboardPanels": [
       {
-        "name": "fire-side",
-        "title": "Fire Side",
-        "file": "fire-side.html",
+        "name": "rgb-lan",
+        "title": "RGB",
+        "file": "rgblan.html",
         "headerColor": "#F4722B",
         "fullbleed": "true"
       }

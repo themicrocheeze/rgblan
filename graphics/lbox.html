@@ -5,35 +5,30 @@
 	<link rel="stylesheet" href="css/lbox.css"/>
 </head>
 <body onload="startTime()">
-
-
-    <!-- Legacy code for reference-->
-	<!--<div class="l3-base" id="lowerthirdBaseVar"></div>-->
-<!--
-	<div  class="matchInfoClass" id="matchInfo"></div>
-	<div class="mapsListClass" id="mapListVar"></div>
--->
-	<!-- CASTER AND PRODUCER INFOBOXES-->
-<!--
-	<div class="casterName1" id="casterNameVar1"></div>
-	<div class="casterName2" id="casterNameVar2"></div>
-	<div class="producerName" id="producerNameVar"></div>
-
-
-	<div class="matchUP" id="matchUPVAR">sdfsdfsdfs</div>
-	<div class="teaminfoandscorebox"></div>
-	<div class="lbean"></div>
--->
 	<!--javaScript Intialization-->
-	<script src="js/lowerThird.js"></script>
-    <!--END LEGACY CODE-->
+	<script src="js/lBox.js"></script>
 
     <!-- Start of new code-->
     <div class="lboxhorizontal"></div>
     <div class="lboxvertical"></div>
-    <img class="CorgLogo" src="imgs/logo.png">
-    <div class="timeMrFreeman" id="tmf"></div>      
-        
+    <img class="CorgLogo" src="imgs/cctv.png">
+    <img class="SponLogo" src="imgs/logofull.png">
+    <div class="timeMrFreeman" id="tmf"></div>
+
+
+<!-- Vertical Info Schedule Mode-->
+
+<div class="vibsm vibspace1" id="matchInfo">Right Now</div>
+<div class="vibsm vibspace2">Up Next</div>
+<div class="vibsm vibspace3">Then Later</div>
+
+
+
+<!--Horizontal Splash text-->
+<div class="hst1">You're watching the PugHub Cup on CCTV</div>
+
+
+   <!--Clock Script-->     
         <script>
         function startTime() {
           const today = new Date();
@@ -51,7 +46,7 @@
           return i;
         }
         </script>
-        
+        <!--End Clock Script-->
 
 
 

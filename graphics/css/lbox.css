@@ -24,6 +24,14 @@
     top: 0px;
 }
 
+.SponLogo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    bottom: 0px;
+}
+
 .orgName{
     position: absolute;
     width: 300px;
@@ -33,13 +41,52 @@
 }
 
 .timeMrFreeman{
-    font-size: 56px;
+    font-size: 48px;
     position: absolute;
-    left: 0px;
     top: 350px;
     color: white;
+    font-family: GoodTimes;
+    background-color: darkslateblue;
+    width: 300px;
+}
+
+
+.vibsm{
+    background-color: darkslateblue;
+    color: white;
+    font-size: 32px;
+    font-family: GoodTimes;
+}
+
+.vibspace1{
+    position: absolute;
+    width: 300px;
+    top: 450px;
+}
+.vibspace2{
+    position: absolute;
+    width: 300px;
+    top: 550px;
+}
+.vibspace3{
+    position: absolute;
+    width: 300px;
+    top: 650px;
+}
+
+
+.hst1{
+    position: absolute;
     font-family: DroidSans;
-    text-align: center;
+    font-size: 36px;
+    left: 300px;
+    bottom: 100px;
+    columns: white;
+    background-color: slateblue;
+    width: 880px;
+    height: 75px;
+    color: white;
+    
 }
 
 /** IMPORTING FONTS**/
@@ -47,3 +94,7 @@
     font-family: DroidSans;
     src: url(../fonts/DroidSans.ttf);
   }
+@font-face {
+    font-family: GoodTimes;
+    src: url(../fonts/good_times.ttf);
+}
