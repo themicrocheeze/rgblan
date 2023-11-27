@@ -1,5 +1,10 @@
 console.log("test");
 
-module.exports = function (nodecg) {
-    nodecg.log.info('RGB LBOX SCRIPT LOADED');
-};
+
+const tRepone = nodecg.Replicant('tRepone');
+
+const tReponeEL = document.getElementById("tony");
+
+tRepone.on('change', (newVal) => {
+	tReponeEL.innerHTML = newVal;
+})
