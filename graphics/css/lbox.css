@@ -6,6 +6,7 @@
     left: 0px;
     bottom: 0px;
     opacity: 50%;
+    visibility: visible;
 }
 .lboxvertical{
     opacity: 50%;
@@ -26,8 +27,8 @@
 
 .SponLogo{
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     left: 0px;
     bottom: 0px;
 }
@@ -80,11 +81,11 @@
     font-family: DroidSans;
     font-size: 36px;
     left: 300px;
-    bottom: 100px;
+    bottom: 0px;
     columns: white;
-    background-color: slateblue;
+    background-color: darkslategrey;
     width: 880px;
-    height: 75px;
+    height: 200px;
     color: white;
     
 }
