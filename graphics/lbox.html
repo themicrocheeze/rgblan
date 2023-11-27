@@ -6,7 +6,6 @@
 </head>
 <body onload="startTime()">
 	<!--javaScript Intialization-->
-	<script src="js/lBox.js"></script>
 
     <!-- Start of new code-->
     <div class="lboxhorizontal"></div>
@@ -18,36 +17,38 @@
 
 <!-- Vertical Info Schedule Mode-->
 
-<div class="vibsm vibspace1" id="matchInfo">PUG HUB CUP</div>
+<div class="vibsm vibspace1" id="orgName">PUG HUB CUP</div>
 <div class="vibsm vibspace2">Round 1</div>
-<div class="vibsm vibspace3">goblin zone vs. GCB</div>
+<div class="vibsm vibspace3" id="matchInfo">TEAM 1 vs. Team 2</div>
 
 
 
 <!--Horizontal Splash text-->
-<div class="hst1" id="tonY">You're watching the PugHub Cup on CasualCabinTV<br/> We will be starting soon.</div>
+<div class="hst1" id="tonY"></div>
 
 
    <!--Clock Script-->     
-        <script>
-        function startTime() {
-          const today = new Date();
-          let h = today.getHours();
-          let m = today.getMinutes();
-          let s = today.getSeconds();
-          m = checkTime(m);
-          s = checkTime(s);
-          document.getElementById('tmf').innerHTML =  h + ":" + m + ":" + s;
-          setTimeout(startTime, 1000);
-        }
-        
-        function checkTime(i) {
-          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-          return i;
-        }
-        </script>
+
         <!--End Clock Script-->
-<script src="lBox.js"></script>
+<script src="js/lBox.js"></script>
+
+<script>
+  function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('tmf').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+  </script>
 
 </body>
 </html>

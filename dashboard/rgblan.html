@@ -11,19 +11,21 @@
 </head>
 
 <body>
+
+
+	<script src="lboxdash.js"></script>
+
 	<h3>RGB LAN LBOX CONTROLS</h3>
 <!--lbox verticle info type-->
-<label>Stream Status</label>
-<select name="streamStatus" id="castingOrg">
-	<option value="st1">Now Watching</option>
-	<option value="st2">Coming Up</option>
-	<option value="st3">You just watched</option>
-	<option value="st4">Audi</option>
-  </select>
 
+<label>Match Up:</label><input type="text" id="matchInfo"/><button onclick="setMatchInfo();">Set Match Info</button>"<br/>
+
+<label>Stream Status</label>
 <input type="text" id="tone"/>
-<button onclick="reptRepone()">Click Me</button>
+<button onclick="reptRepone();">Click Me</button>
 <script src="lboxdash.js"></script>
+
+
 
 </body>
 
