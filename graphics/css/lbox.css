@@ -1,4 +1,6 @@
-.lboxhorizontal{
+/* These first 2 classes are for the base shape of the lbox.*/
+
+.lboxhorizontal {
     position: absolute;
     background-color: darkslategrey;
     width: 1920px;
@@ -8,16 +10,17 @@
     opacity: 50%;
     visibility: visible;
 }
-.lboxvertical{
+
+.lboxvertical {
     opacity: 50%;
     position: absolute;
     background-color: darkslategray;
     width: 300px;
     height: 880px;
-    top:0px;
+    top: 0px;
 }
-
-.CorgLogo{
+/*Logos */
+.CorgLogo {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -25,7 +28,7 @@
     top: 0px;
 }
 
-.SponLogo{
+.SponLogo {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -33,15 +36,15 @@
     bottom: 0px;
 }
 
-.orgName{
+.orgName {
     position: absolute;
     width: 300px;
     height: 128px;
     font-size: 64px;
     top: 300px
 }
-
-.timeMrFreeman{
+/*Clock*/
+.timeMrFreeman {
     font-size: 48px;
     position: absolute;
     top: 350px;
@@ -51,32 +54,34 @@
     width: 300px;
 }
 
-
-.vibsm{
+/*For the vibs panel*/
+.vibsm {
     background-color: darkslateblue;
     color: white;
     font-size: 32px;
     font-family: GoodTimes;
 }
 
-.vibspace1{
+.vibspace1 {
     position: absolute;
     width: 300px;
     top: 450px;
 }
-.vibspace2{
+
+.vibspace2 {
     position: absolute;
     width: 300px;
     top: 550px;
 }
-.vibspace3{
+
+.vibspace3 {
     position: absolute;
     width: 300px;
     top: 650px;
 }
 
-
-.hst1{
+/*Older horizontal space panel*/
+.hst1 {
     position: absolute;
     font-family: DroidSans;
     font-size: 36px;
@@ -87,14 +92,69 @@
     width: 880px;
     height: 200px;
     color: white;
-    
+
 }
+/*Horizontal space 1*/
+.hs1Header {
+    position: absolute;
+    font-family: DroidSans;
+    font-size: 52px;
+    left: 300px;
+    top: 880px;
+    width: 1000px;
+    height: 64px;
+    background-color: rgb(83, 153, 51);
+    opacity: 59%;
+    color: white;
+    text-align: center;
+}
+
+.hs1HeaderText {
+    position: absolute;
+    font-family: DroidSans;
+    font-size: 52px;
+    left: 300px;
+    top: 880px;
+    width: 1000px;
+    height: 64px;
+    color: white;
+    text-align: center;
+}
+
+.hs1Body {
+    position: absolute;
+    font-family: DroidSans;
+    font-size: 32px;
+    left: 300px;
+    top: 944px;
+    width: 1000px;
+    height: 136px;
+    background-color: rgb(51, 104, 153);
+    color: white;
+    text-align: center;
+    opacity: 58%;
+}
+
+
+.hs1BodyText {
+    position: absolute;
+    font-family: DroidSans;
+    font-size: 32px;
+    left: 300px;
+    top: 944px;
+    width: 1000px;
+    height: 136px;
+    color: white;
+    text-align: center;
+}
+
 
 /** IMPORTING FONTS**/
 @font-face {
     font-family: DroidSans;
     src: url(../fonts/DroidSans.ttf);
-  }
+}
+
 @font-face {
     font-family: GoodTimes;
     src: url(../fonts/good_times.ttf);

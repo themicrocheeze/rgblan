@@ -18,12 +18,37 @@
 	<h3>RGB LAN LBOX CONTROLS</h3>
 <!--lbox verticle info type-->
 
-<label>Match Up:</label><input type="text" id="matchInfo"/><button onclick="setMatchInfo();">Set Match Info</button>"<br/>
+<label>Event Name</label>
+<input type="text" id="orgInfo"/>
+<button onclick="setOrgInfo();">Set Event Name</button>
+<br/>
+
+<label>Event Stage</label>
+<input type="text" id="roundInfo"/>
+<button onclick="setRoundInfo();">Set Event Stage</button>
+<br/>
+
+
+<label>Match Up:</label>
+<input type="text" id="matchInfo"/>
+<button onclick="setMatchInfo();">Set Match Info</button>
+<br/>
+<hr/>
+
+
+<label>Horizontal Text</label>
+<br/>
+<br/>
+<input type="text" id="hs1Ht"/><button onclick="setHs1Ht();">Set Horizontal Text Header</button>
+<br/>
+<input type="text" id="hs1Bt"/><button onclick="setHs1Bt();">Set Horizontal Text Body</button>
+<br/>
 
 <label>Stream Status</label>
 <input type="text" id="tone"/>
-<button onclick="reptRepone();">Click Me</button>
+<button onclick="reptRepone();">Set Info Box 1</button>
 <script src="lboxdash.js"></script>
+
 
 
 
