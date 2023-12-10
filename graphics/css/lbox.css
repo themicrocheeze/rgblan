@@ -103,7 +103,8 @@
     top: 880px;
     width: 1000px;
     height: 64px;
-    background-color: rgb(83, 153, 51);
+   /* background-color: rgb(83, 153, 51);*/
+   background-color: black;
     opacity: 59%;
     color: white;
     text-align: center;
