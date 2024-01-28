@@ -8,6 +8,10 @@ const orgInfoREP = nodecg.Replicant('orgInfo');
 const Hs1HtREP = nodecg.Replicant('Hs1Ht');
 const Hs1BtREP = nodecg.Replicant('Hs1Bt');
 
+const Vs1HtRep = nodecg.Replicant('Vs1Ht');
+
+
+
 //sets the elements to use
 const tReponeEL = document.getElementById("tonY");
 const matchInfoEL = document.getElementById("matchInfo");
@@ -15,7 +19,7 @@ const roundInfoEL = document.getElementById("roundInfo");
 const orgInfoEL = document.getElementById("orgInfo");
 const Hs1HtEL = document.getElementById("hs1HeaderText");
 const Hs1BtEL = document.getElementById("hs1BodyText");
-
+const Vs1HtEL = document.getElementById("Vs1H1");
 
 //These functions update the set element whenever there is a change in the set replicant.
 tRepone.on('change', (newVal) => {

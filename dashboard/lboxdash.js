@@ -10,6 +10,9 @@ const Hs1Ht = nodecg.Replicant('Hs1Ht', {defaultValue: "Headers"});
 const Hs1Bt = nodecg.Replicant('Hs1Bt', {defaultValue: "Body"});
 
 
+//Vs1 Reps
+const Vs1HtRep = nodecg.Replicant('Vs1Ht');
+
 //Vs1 Rep functions
 function reptRepone(){
     tRepone.value = document.getElementById("tone").value;
@@ -37,4 +40,9 @@ function setHs1Ht(){
 
 function setHs1Bt(){
     Hs1Bt.value = document.getElementById("hs1Bt").value;
+}
+
+//Vs1 Rep Functions
+function setVs1Ht(){
+    Vs1Ht.value = document.getElementById("vs1Ht").value;
 }
