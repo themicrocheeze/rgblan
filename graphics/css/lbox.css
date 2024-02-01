@@ -57,7 +57,7 @@
     top: 300px;
     color: white;
     font-family: GoodTimes;
-    background-color: darkslateblue;
+    background-color: darkslategray;
     width: 300px;
     text-align: center;
 }
@@ -194,7 +194,7 @@
     font-family: GoodTimes;
 }
 
-.DroidSanes{
+.DroidSans{
     font-family: DroidSans;
 }
 

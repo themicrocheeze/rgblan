@@ -2,63 +2,133 @@
 
 /*HEADERS*/
 .vheader1{
-    z-index: 99;
+    z-index: 98;
     position: absolute;
     width: 300px;
     height: 56px;
-    background-color: red;
+    background: darkslateblue;
     top: 358px;
     left: 0px;
     font-size: 48px;
 }
-.vheader2{
+.vh1t{
     z-index: 99;
     position: absolute;
     width: 300px;
     height: 56px;
-    background-color: red;
+    top: 358px;
+    left: 0px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+    color: white;
+}
+.vheader2{
+    z-index: 98;
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    background: darkslateblue;
     top: 598px;
     left: 0px;
     font-size: 48px;
 }
-.vheader3{
+.vh2t{
     z-index: 99;
     position: absolute;
     width: 300px;
     height: 56px;
-    background-color: red;
+    top: 598px;
+    left: 0px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px; 
+    color: white;
+}
+.vheader3{
+    z-index: 98;
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    background: darkslateblue;
     top: 838px;
     left: 0px;
     font-size: 48px;
 }
-/*BODIES*/
-.vbody1{
+.vh3t{
     z-index: 99;
     position: absolute;
     width: 300px;
+    height: 56px;
+    color: white;
+    top: 838px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+/*BODIES*/
+.vbody1{
+    z-index: 98;
+    position: absolute;
+    width: 300px;
     height: 184px;
-    background-color: white;
+    background-color: gray;
+    opacity: 50%;
     top: 414px;
     left: 0px;
     font-size: 48px;
 }
-.vbody2{
+.vb1t{
     z-index: 99;
     position: absolute;
     width: 300px;
     height: 184px;
-    background-color: white;
+    top: 414px;
+    left: 0px;
+    font-size: 32px;
+}
+.vbody2{
+    z-index: 98;
+    position: absolute;
+    width: 300px;
+    height: 184px;
+    background-color: gray;
     top: 654px;
     left: 0px;
     font-size: 48px;
+    opacity: 50%;
+}
+.vb2t{
+    z-index: 99;
+    position: absolute;
+    width: 300px;
+    height: 184px;
+
+    top: 654px;
+    left: 0px;
+    font-size: 32px;
 }
 .vbody3{
+    z-index: 98;
+    position: absolute;
+    width: 300px;
+    height: 186px;
+    background-color: gray;
+    opacity: 50%;
+    top: 894px;
+    left: 0px;
+    font-size: 48px;
+}
+.vb3t{
     z-index: 99;
     position: absolute;
     width: 300px;
     height: 186px;
-    background-color: white;
+
     top: 894px;
     left: 0px;
-    font-size: 48px;
+    font-size: 32px;
 }
