@@ -14,6 +14,9 @@ const vhead1Rep = nodecg.Replicant('vhead1');
 const vhead2Rep = nodecg.Replicant('vhead2');
 const vhead3Rep = nodecg.Replicant('vhead3');
 
+const vbody1Rep = nodecg.Replicant('vbody1');
+const vbody2Rep = nodecg.Replicant('vbody2');
+const vbody3Rep = nodecg.Replicant('vbody3');
 
 
 //sets the elements to use
@@ -27,7 +30,9 @@ const Vs1HtEL = document.getElementById("Vs1H1");
 const vhead1EL = document.getElementById('vhead1');
 const vhead2EL = document.getElementById('vhead2');
 const vhead3EL = document.getElementById('vhead3');
-
+const vbody1EL = document.getElementById('vbody1');
+const vbody2EL = document.getElementById('vbody2');
+const vbody3EL = document.getElementById('vbody3');
 
 
 //These functions update the set element whenever there is a change in the set replicant.
@@ -65,4 +70,16 @@ vhead2Rep.on('change', (newVal) => {
 
 vhead3Rep.on('change', (newVal) => {
 	vhead3EL.innerHTML = newVal;
+})
+
+vbody1Rep.on('change', (newVal) => {
+	vbody1EL.innerHTML = newVal;
+})
+
+vbody2Rep.on('change', (newVal) => {
+	vbody2EL.innerHTML = newVal;
+})
+
+vbody3Rep.on('change', (newVal) => {
+	vbody3EL.innerHTML = newVal;
 })

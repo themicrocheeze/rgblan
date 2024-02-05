@@ -92,6 +92,7 @@
     top: 414px;
     left: 0px;
     font-size: 32px;
+    color: white;
 }
 .vbody2{
     z-index: 98;
@@ -113,6 +114,7 @@
     top: 654px;
     left: 0px;
     font-size: 32px;
+    color: white;
 }
 .vbody3{
     z-index: 98;
@@ -134,4 +136,5 @@
     top: 894px;
     left: 0px;
     font-size: 32px;
+    color: white;
 }

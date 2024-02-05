@@ -15,6 +15,10 @@ const vhead1 = nodecg.Replicant('vhead1', {defaultValue: "Just Watched"});
 const vhead2 = nodecg.Replicant('vhead2', {defaultValue: "NOW WATCHING"});
 const vhead3 = nodecg.Replicant('vhead3', {defaultValue: "Up next"});
 
+const vbody1 = nodecg.Replicant('vbody1', {defaultValue: "Bottom Text"});
+const vbody2 = nodecg.Replicant('vbody2', {defaultValue: "Bottom Text"});
+const vbody3 = nodecg.Replicant('vbody3', {defaultValue: "Bottom Text"});
+
 
 //Vs1 Reps
 const Vs1HtRep = nodecg.Replicant('Vs1Ht');
@@ -64,4 +68,16 @@ function setvhead2(){
 
 function setvhead3(){
     vhead3.value = document.getElementById('vhead3').value;
+}
+
+function setvbody1(){
+    vbody1.value = document.getElementById('vbody1').value;
+}
+
+function setvbody2(){
+    vbody2.value = document.getElementById('vbody2').value;
+}
+
+function setvbody3(){
+    vbody3.value = document.getElementById('vbody3').value;
 }
