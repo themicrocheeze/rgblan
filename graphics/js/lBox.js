@@ -10,6 +10,10 @@ const Hs1BtREP = nodecg.Replicant('Hs1Bt');
 
 const Vs1HtRep = nodecg.Replicant('Vs1Ht');
 
+const vhead1Rep = nodecg.Replicant('vhead1');
+const vhead2Rep = nodecg.Replicant('vhead2');
+const vhead3Rep = nodecg.Replicant('vhead3');
+
 
 
 //sets the elements to use
@@ -20,6 +24,11 @@ const orgInfoEL = document.getElementById("orgInfo");
 const Hs1HtEL = document.getElementById("hs1HeaderText");
 const Hs1BtEL = document.getElementById("hs1BodyText");
 const Vs1HtEL = document.getElementById("Vs1H1");
+const vhead1EL = document.getElementById('vhead1');
+const vhead2EL = document.getElementById('vhead2');
+const vhead3EL = document.getElementById('vhead3');
+
+
 
 //These functions update the set element whenever there is a change in the set replicant.
 tRepone.on('change', (newVal) => {
@@ -44,4 +53,16 @@ Hs1HtREP.on('change', (newVal) => {
 
 Hs1BtREP.on('change', (newVal) => {
 	Hs1BtEL.innerHTML = newVal;
+})
+
+vhead1Rep.on('change', (newVal) => {
+	vhead1EL.innerHTML = newVal;
+})
+
+vhead2Rep.on('change', (newVal) => {
+	vhead2EL.innerHTML = newVal;
+})
+
+vhead3Rep.on('change', (newVal) => {
+	vhead3EL.innerHTML = newVal;
 })

@@ -10,6 +10,12 @@ const Hs1Ht = nodecg.Replicant('Hs1Ht', {defaultValue: "Headers"});
 const Hs1Bt = nodecg.Replicant('Hs1Bt', {defaultValue: "Body"});
 
 
+//NEW VERTICAL SPACE
+const vhead1 = nodecg.Replicant('vhead1', {defaultValue: "Just Watched"});
+const vhead2 = nodecg.Replicant('vhead2', {defaultValue: "NOW WATCHING"});
+const vhead3 = nodecg.Replicant('vhead3', {defaultValue: "Up next"});
+
+
 //Vs1 Reps
 const Vs1HtRep = nodecg.Replicant('Vs1Ht');
 
@@ -45,4 +51,17 @@ function setHs1Bt(){
 //Vs1 Rep Functions
 function setVs1Ht(){
     Vs1Ht.value = document.getElementById("vs1Ht").value;
+}
+
+//NEW VERTICAL SPACE FUNCTIONS
+function setvhead1(){
+    vhead1.value = document.getElementById('vhead1').value;
+}
+
+function setvhead2(){
+    vhead2.value = document.getElementById('vhead2').value;
+}
+
+function setvhead3(){
+    vhead3.value = document.getElementById('vhead3').value;
 }
