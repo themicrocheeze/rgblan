@@ -1,0 +1,43 @@
+/**This class is used for the charity logos**/
+
+
+
+/**These classes are for the lbox**/
+
+/*cimage sets where the images are located on the overlay, the cinamin classes set the animations for each image*/
+.cimage{
+    position: absolute;
+    width: 620px;
+    height: 200px;
+    left: 1300px;
+    top: 880px;
+}
+
+.cinamin1{
+    opacity: 0%;
+    animation-name: cinaminFrames3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.cinamin2{
+    opacity: 0%;
+    animation-name: cinaminFrames3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+.cinamin3{
+    opacity: 0%;
+    animation-name: cinaminFrames3;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+
+
+}
+/*cimage animations or cinamin as I have choosen to call it*/
+
+@keyframes cinaminFrames3 {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
