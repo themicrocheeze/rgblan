@@ -27,8 +27,9 @@
     left: 0px;
     top: 0px;
     animation: animCorg1;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .SponLogo {
@@ -38,9 +39,10 @@
     left: 0px;
     top: 0px;
     animation: animCorg2;
-    animation-duration: 20s;
+    animation-duration: 15s;
     opacity: 0%;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .orgName {
@@ -212,13 +214,22 @@
 /** ANIMATIONS **/
 
 @keyframes animCorg1 {
-    0%   {opacity: 0%;}
-    50%  {opacity: 100%;}
-    100% {opacity: 0%;}
+
+    0% {opacity: 100%;}
+    49% {opacity: 100%;}
+    50% {opacity: 0%;}
+    99% {opacity: 0%;}
+    100% {opacity: 100%;}
+
   }
 
   @keyframes animCorg2 {
-    0%   {opacity: 100%;}
-    50%  {opacity: 0%;}
-    100% {opacity: 100%;}
+
+    0% {opacity: 0%;}
+    49% {opacity: 0%;}
+    50% {opacity: 100%;}
+    99% {opacity: 100%;}
+    100% {opacity: 0%;}
+
+
   }

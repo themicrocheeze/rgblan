@@ -5,7 +5,7 @@
 /**These classes are for the lbox**/
 
 /*cimage sets where the images are located on the overlay, the cinamin classes set the animations for each image*/
-.cimage{
+.cimage {
     position: absolute;
     width: 620px;
     height: 200px;
@@ -13,31 +13,61 @@
     top: 880px;
 }
 
-.cinamin1{
+.cinamin1 {
     opacity: 0%;
-    animation-name: cinaminFrames3;
-    animation-duration: 3s;
+    animation-name: cinaminFrames1;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 
-.cinamin2{
+.cinamin2 {
+    opacity: 0%;
+    animation-name: cinaminFrames2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.cinamin3 {
     opacity: 0%;
     animation-name: cinaminFrames3;
-    animation-duration: 6s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
-
-}
-.cinamin3{
-    opacity: 0%;
-    animation-name: cinaminFrames3;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 
 }
+
 /*cimage animations or cinamin as I have choosen to call it*/
 
-@keyframes cinaminFrames3 {
-    0%   {opacity: 0%;}
+@keyframes cinaminFrames1 {
+
+    0% {opacity: 100%;}
+    32% {opacity: 100%;}
+    33% {opacity: 0%;}
+    99% {opacity: 0%;}
     100% {opacity: 100%;}
-  }
+
+}
+
+@keyframes cinaminFrames2 {
+
+    0% {opacity: 0%;}
+    32% {opacity: 0%;}
+    33% {opacity: 100%;}
+    65% {opacity: 100%;}
+    66% {opacity: 0%;}
+
+}
+
+@keyframes cinaminFrames3 {
+
+    0% {opacity: 0%;}
+    65% {opacity: 0%;}
+    66% {opacity: 100%;}
+    99% {opacity: 100%;}
+    100% {opacity: 0%;}
+
+}
