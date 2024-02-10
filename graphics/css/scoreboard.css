@@ -1,4 +1,7 @@
-.team1class{
+/**New Code**/
+/*Blu Team*/
+.bluTeamBackground{
+
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
     color: white;
@@ -7,23 +10,29 @@
     top: 0px;
     width: 360px;
     height: 56px;
-    font-size: 52px;
+    font-size: 48px;
     text-align: center;
     margin: none;
+    opacity: 50%;
+
 }
-.team2class{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: black;
+
+.bluTeamName{
+
     color: white;
     position: absolute;
-    left: 1114px;
+    left: 445px;
     top: 0px;
     width: 360px;
     height: 56px;
-    font-size: 52px;
+    font-size: 48px;
     text-align: center;
+    margin: none;
+    font-family: GoodTimes;
+
 }
-.team1score{
+
+.bluTeamScore{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     position: absolute;
@@ -33,9 +42,40 @@
     height: 56px;
     background-color: #365C79;
     color: white;
-    font-size: 52px;
+    font-size: 48px;
 }
-.team2score{
+
+/*Red Team*/
+.redTeamBackground{
+
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 1114px;
+    top: 0px;
+    width: 360px;
+    height: 56px;
+    font-size: 48px;
+    text-align: center;
+    opacity: 50%;
+}
+
+.redTeamName{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    left: 1114px;
+    top: 0px;
+    width: 360px;
+    height: 56px;
+    font-size: 48px;
+    text-align: center;
+    font-family: GoodTimes;
+}
+
+.redTeamScore{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     position: absolute;
@@ -45,12 +85,12 @@
     height: 56px;
     background-color: #9E2D2B;
     color: white;
-    font-size: 52px;
-
+    font-size: 48px;
 }
 
-.whichroundClass{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/*Other Elements*/
+
+.tfSeriesInfo{
     background-color: white;
     text-align: center;
     position: absolute;
@@ -59,4 +99,87 @@
     left: 805px;
     top: 56px;
     font-size: 28px;
+}
+.tfSeriesText{
+    font-family: DroidSans;
+    text-align: center;
+    position: absolute;
+    width: 309px;
+    height: 34px;
+    left: 805px;
+    top: 56px;
+    font-size: 28px;
+    color: black;
+    animation-name: tfst1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.tfSeriesText2{
+    font-family: DroidSans;
+    text-align: center;
+    position: absolute;
+    width: 309px;
+    height: 34px;
+    left: 805px;
+    top: 56px;
+    font-size: 28px;
+    color: black;
+    animation-name: tfst2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    opacity: 0%;
+}
+.tfSeriesText3{
+    font-family: DroidSans;
+    text-align: center;
+    position: absolute;
+    width: 309px;
+    height: 34px;
+    left: 805px;
+    top: 56px;
+    font-size: 28px;
+    color: black;
+    animation-name: tfst3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    opacity: 0%;
+}
+
+
+
+
+@keyframes tfst1 {
+    0% {opacity: 100%;}
+    32% {opacity: 100%;}
+    33% {opacity: 0%;}
+    99% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+@keyframes tfst2 {
+    0% {opacity: 0%;}
+    32% {opacity: 0%;}
+    33% {opacity: 100%;}
+    65% {opacity: 100%;}
+    66% {opacity: 0%;}
+    100%{opacity: 0%;}
+}
+
+@keyframes tfst3 {
+    0% {opacity: 0%;}
+    65% {opacity: 0%;}
+    66% {opacity: 100%;}
+    99% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+
+@font-face {
+    font-family: GoodTimes;
+    src: url(../fonts/good_times.ttf);
+}
+
+@font-face {
+    font-family: DroidSans;
+    src: url(../fonts/DroidSans.ttf);
 }

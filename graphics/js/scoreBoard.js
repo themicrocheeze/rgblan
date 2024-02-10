@@ -1,21 +1,30 @@
-const team1scoreRep = nodecg.Replicant('team1score');
-const team2scoreRep = nodecg.Replicant('team2score');
+//REPLICANTS
+const bluTeamNameREP = nodecg.Replicant('bluTeamName');
+const redTeamNameREP = nodecg.Replicant('redTeamName');
+const bluTeamScoreREP = nodecg.Replicant('bluTeamScore');
+const redTeamScoreREP = nodecg.Replicant('redTeamScore');
 
-const team1scoreEl = document.getElementById('sb1');
-const team2scoreEl = document.getElementById('sb2');
+//HTML ELEMENTS
+const bluTeamNameEL = document.getElementById("bluTeamName");
+const redTeamNameEL = document.getElementById("redTeamName");
+const bluTeamScoreEL = document.getElementById('bluTeamScore');
+const redTeamScoreEL = document.getElementById('redTeamScore');
 
-const underScoreTextRep = nodecg.Replicant('underScoreText');
-const undeScoreTextEl = document.getElementById('whichRound');
 
+//UPDATE FUNCTIONS
 
-underScoreTextRep.on('change', (newVal) =>{
-    undeScoreTextEl.innerHTML = newVal;
+bluTeamNameREP.on('change', (newVal) => {
+	bluTeamNameEL.innerHTML = newVal;
 })
 
-team1scoreRep.on('change', (newVal) =>{
-    team1scoreEl.innerHTML = newVal;
+redTeamNameREP.on('change', (newVal) => {
+	redTeamNameEL.innerHTML = newVal;
 })
 
-team2scoreRep.on('change', (newVal) =>{
-    team2scoreEl.innerHTML = newVal;
+bluTeamScoreREP.on('change', (newVal) =>{
+    bluTeamScoreEL.innerHTML = newVal;
+})
+
+redTeamScoreREP.on('change', (newVal) =>{
+    redTeamScoreEL.innerHTML = newVal;
 })

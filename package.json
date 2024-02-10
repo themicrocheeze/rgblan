@@ -27,6 +27,12 @@
         "file": "rgblan.html",
         "headerColor": "#F4722B",
         "fullbleed": "true"
+      },
+      {
+        "name": "score-boardDash",
+        "title": "TF2 score",
+        "file": "score-boardDash.html",
+        "fullbleed": "true"
       }
     ],
     "graphics": [
@@ -47,6 +53,11 @@
       },
       {
         "file": "lthird.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "scoreBoard.html",
         "width": 1920,
         "height": 1080
       }
