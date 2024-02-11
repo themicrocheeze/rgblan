@@ -146,6 +146,20 @@
 }
 
 
+.gamePause{
+    position: absolute;
+    background-color: yellow;
+    color: black;
+    left: 861px;
+    width: 197px;
+    height: 56px;
+    font-size: 36px;
+    align-items: center;
+    font-family: GoodTimes;
+    text-align: center;
+    opacity: 0%;
+}
+
 
 
 @keyframes tfst1 {

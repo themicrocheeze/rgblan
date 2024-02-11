@@ -3,12 +3,14 @@ const bluTeamNameREP = nodecg.Replicant('bluTeamName');
 const redTeamNameREP = nodecg.Replicant('redTeamName');
 const bluTeamScoreREP = nodecg.Replicant('bluTeamScore');
 const redTeamScoreREP = nodecg.Replicant('redTeamScore');
+const gamePauseStateREP = nodecg.Replicant('gamePauseState');
 
 //HTML ELEMENTS
 const bluTeamNameEL = document.getElementById("bluTeamName");
 const redTeamNameEL = document.getElementById("redTeamName");
 const bluTeamScoreEL = document.getElementById('bluTeamScore');
 const redTeamScoreEL = document.getElementById('redTeamScore');
+const gamePauseStateEL = document.getElementById('gamePauseState');
 
 
 //UPDATE FUNCTIONS
@@ -27,4 +29,11 @@ bluTeamScoreREP.on('change', (newVal) =>{
 
 redTeamScoreREP.on('change', (newVal) =>{
     redTeamScoreEL.innerHTML = newVal;
+})
+
+gamePauseStateREP.on('change', (newVal) => {
+
+
+    gamePauseStateEL.style.opacity = newVal;
+
 })
