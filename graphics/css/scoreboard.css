@@ -45,6 +45,19 @@
     font-size: 48px;
 }
 
+.bluTeamScoreText{
+    font-family: GoodTimes;
+    text-align: center;
+    position: absolute;
+    left: 805px;
+    top: 0px;
+    width: 56px;
+    height: 56px;
+    color: white;
+    font-size: 48px;
+}
+
+
 /*Red Team*/
 .redTeamBackground{
 
@@ -76,7 +89,7 @@
 }
 
 .redTeamScore{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: GoodTimes;
     text-align: center;
     position: absolute;
     top: 0px;
@@ -87,6 +100,19 @@
     color: white;
     font-size: 48px;
 }
+
+.redTeamScoreText{
+    font-family: GoodTimes;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 1058px;
+    width: 56px;
+    height: 56px;
+    color: white;
+    font-size: 48px;
+}
+
 
 /*Other Elements*/
 
