@@ -6,7 +6,7 @@
     position: absolute;
     width: 300px;
     height: 56px;
-    background: darkslateblue;
+    background: #3D153A;
     top: 358px;
     left: 0px;
     font-size: 48px;
@@ -30,7 +30,7 @@
     position: absolute;
     width: 300px;
     height: 56px;
-    background: darkslateblue;
+    background: #3D153A;
     top: 598px;
     left: 0px;
     font-size: 48px;
@@ -54,7 +54,7 @@
     position: absolute;
     width: 300px;
     height: 56px;
-    background: darkslateblue;
+    background: #3D153A;
     top: 838px;
     left: 0px;
     font-size: 48px;
@@ -78,7 +78,7 @@
     position: absolute;
     width: 300px;
     height: 184px;
-    background-color: gray;
+    background-color: #000000;
     opacity: 50%;
     top: 414px;
     left: 0px;
@@ -99,7 +99,7 @@
     position: absolute;
     width: 300px;
     height: 184px;
-    background-color: gray;
+    background-color: #000000;
     top: 654px;
     left: 0px;
     font-size: 48px;
@@ -121,7 +121,7 @@
     position: absolute;
     width: 300px;
     height: 186px;
-    background-color: gray;
+    background-color: #000000;
     opacity: 50%;
     top: 894px;
     left: 0px;

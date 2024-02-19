@@ -59,14 +59,14 @@
     top: 300px;
     color: white;
     font-family: GoodTimes;
-    background-color: darkslategray;
+    background-color: #B14298;
     width: 300px;
     text-align: center;
 }
 
 /*For the vibs panel*/
 .vibsm {
-    background-color: darkslateblue;
+    background-color: #3D153A;
     color: white;
     font-size: 32px;
     font-family: GoodTimes;
@@ -144,7 +144,7 @@
     font-size: 52px;
     left: 300px;
     top: 880px;
-    width: 1000px;
+    width: 1620px;
     height: 64px;
    /* background-color: rgb(83, 153, 51);*/
    background-color: black;
@@ -159,7 +159,7 @@
     font-size: 52px;
     left: 300px;
     top: 880px;
-    width: 1000px;
+    width: 1620px;
     height: 64px;
     color: white;
     text-align: center;
@@ -171,7 +171,7 @@
     font-size: 32px;
     left: 300px;
     top: 944px;
-    width: 1000px;
+    width: 1620px;
     height: 136px;
     background-color: rgb(51, 104, 153);
     color: white;
@@ -186,7 +186,7 @@
     font-size: 32px;
     left: 300px;
     top: 944px;
-    width: 1000px;
+    width: 1620px;
     height: 136px;
     color: white;
     text-align: center;
