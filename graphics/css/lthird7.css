@@ -1,0 +1,120 @@
+.lthirdbase{
+    position: absolute;
+    width: 1820px;
+    height: 250px;
+    left: 50px;
+    background-color: darkslategrey;
+    top: 800px;
+    /*opacity: 25%;*/
+}
+
+.lthirdheader{
+    position: absolute;
+    width: 800px;
+    height: 75px;
+    top: 814px;
+    left: 298px;
+    background-color: black;
+    font-size: 48px;
+    color: white;
+    opacity: 50%;
+}
+
+.lthirdheaderText{
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    top: 814px;
+    left: 298px;
+    font-size: 48px;
+    color: white;
+}
+
+.lthirdbody{
+    position: absolute;
+    width: 800px;
+    height: 144px;
+    top: 895px;
+    left: 298px;
+    background-color: rgb(51, 104, 153);
+    font-size: 36px;
+    color: white;
+}
+
+.lthirdbodyText{
+    position: absolute;
+    width: 800px;
+    height: 144px;
+    top: 895px;
+    left: 298px;
+    font-size: 36px;
+    color: white;
+}
+
+.lthirdlogoCON{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    top: 814px;
+    left: 64px;
+    background-color: black;
+    opacity: 25%;
+}
+
+.CorgLogo{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    top: 814px;
+    left: 64px;
+
+}
+
+.lthirdCharityBase{
+    position: absolute;
+    top: 810px;
+    left: 1600px;
+    width: 300px;
+    height: 300px;
+}
+
+.timeMrFreeman{
+    left: 0px;
+    width: 300px;
+    height: 64px;
+    background-color: purple;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+
+    border-radius: 0px 0px 15px 0px;
+
+    z-index: 20;
+    position: absolute;
+}
+
+
+
+.timeTable{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    background-color: darkslategray;
+    opacity: 50%;
+    top: 0px;
+
+    border-radius: 0px 0px 15px 0px;
+
+    z-index: 1;
+}
+
+/*timeTable stuff*/
+
+.tt1H{
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    background-color: yellow;
+    top: 64px;
+    font-size: 52px;
+}
